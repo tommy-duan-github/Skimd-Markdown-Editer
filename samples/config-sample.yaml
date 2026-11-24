@@ -1,0 +1,18 @@
+app:
+  name: Skimd
+  mode: portable
+  startupTargetMs: 250
+reader:
+  defaultView: read
+  theme: obsidian
+  typography:
+    ui: Inter
+    display: Space Grotesk
+    mono: JetBrains Mono
+supportedFormats:
+  - markdown
+  - yaml
+  - json
+  - csv
+  - toml
+  - text

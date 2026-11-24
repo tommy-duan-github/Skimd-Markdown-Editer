@@ -1,0 +1,9 @@
+node_modules/
+dist/
+host/lib/
+*.nupkg
+.vite/
+data/
+portable.flag
+.DS_Store
+Thumbs.db

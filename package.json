@@ -1,0 +1,31 @@
+{
+  "name": "skimd",
+  "version": "1.0.0-beta.2",
+  "private": true,
+  "description": "Skimd — Lightweight, fast, minimal Markdown & structured text reader for Windows.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "icon": "node scripts/generate-icon.mjs",
+    "test": "node --test tests/core.test.mjs",
+    "build:portable": "powershell -ExecutionPolicy Bypass -File scripts/build-portable.ps1",
+    "build:installer": "powershell -ExecutionPolicy Bypass -File scripts/build-installer.ps1"
+  },
+  "dependencies": {
+    "@fontsource/inter": "^5.2.6",
+    "@fontsource/jetbrains-mono": "^5.2.6",
+    "@fontsource/space-grotesk": "^5.2.6",
+    "dompurify": "^3.2.4",
+    "highlight.js": "^11.11.1",
+    "js-yaml": "^4.1.0",
+    "marked": "^15.0.7"
+  },
+  "devDependencies": {
+    "@types/dompurify": "^3.2.0",
+    "@types/js-yaml": "^4.0.9",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.0"
+  }
+}

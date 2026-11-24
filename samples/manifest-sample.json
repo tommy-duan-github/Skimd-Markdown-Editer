@@ -1,0 +1,14 @@
+{
+  "name": "skimd",
+  "version": "0.1.0",
+  "portable": true,
+  "features": {
+    "markdown": ["gfm", "frontmatter", "callouts", "tasks"],
+    "structured": ["json", "jsonc", "yaml", "csv", "toml"],
+    "windows": {
+      "userPath": true,
+      "singleInstancePipe": true,
+      "fileAssociations": [".md", ".markdown"]
+    }
+  }
+}
